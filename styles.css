@@ -150,6 +150,15 @@ h2 {
   transform: scale(1.03);
 }
 
+.bracket {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.project-tile:hover .bracket {
+  opacity: 1;
+}
+
 /*-------Contacts start here-------*/
 #contact {
   display: flex;
